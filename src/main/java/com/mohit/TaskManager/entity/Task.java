@@ -1,10 +1,7 @@
 package com.mohit.TaskManager.entity;
 
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -14,6 +11,7 @@ import java.util.Date;
 @Getter
 @Setter
 @RequiredArgsConstructor
+@AllArgsConstructor
 @Table(name = "task")
 public class Task {
     @Id

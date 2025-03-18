@@ -13,6 +13,7 @@ import lombok.*;
 @Setter
 @RequiredArgsConstructor
 @Builder
+@AllArgsConstructor
 public class User {
     private String username;
     @Id
